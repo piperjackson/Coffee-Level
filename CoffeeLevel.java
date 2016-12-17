@@ -1,8 +1,7 @@
-// check coffee levels,
-//perform necessary
-//actions
-if (haveCoffee) {
-	doWork();
-} else {
+// Check coffee level,
+// raise if necessary.
+if (!haveCoffee) {
 	getCoffee();
 }
+
+doWork();
