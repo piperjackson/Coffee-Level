@@ -1,6 +1,6 @@
 // Check coffee level,
 // raise if necessary.
-if (!haveCoffee) {
+if ( coffee.level < minCoffee ) {
 	getCoffee();
 }
 
